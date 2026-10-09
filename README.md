@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # RIFQAH SULAIHA — THE SERIES
 
 A cinematic, streaming-inspired portfolio for **Rifqah Sulaiha**: Project Manager and BCA student.
@@ -93,3 +94,7 @@ scripts/build-images.mjs   ← portrait/share-image pipeline (sharp)
 - **Opening:** Enter or Esc skips it.
 - **Play Intro:** Space pauses, ← and → change slides, Esc closes.
 - **Project and resume overlays:** Esc closes.
+=======
+# Portfolio
+My Own Portfolio Series
+>>>>>>> 210c8bb20bd829b8b96957a61499d4ef2e435681
