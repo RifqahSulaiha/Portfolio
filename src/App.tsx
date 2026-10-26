@@ -22,7 +22,6 @@ import { EASE } from './components/fx';
 // Overlays are only needed on demand — split them out of the first load.
 const PlayIntro = lazy(() => import('./components/PlayIntro'));
 const ProjectModal = lazy(() => import('./components/ProjectModal'));
-const ResumeModal = lazy(() => import('./components/ResumeModal'));
 
 type Stage = 'opening' | 'profiles' | 'home';
 
@@ -51,7 +50,6 @@ function Series() {
   const [profileId, setProfileId] = useState<ProfileId>(stored ?? 'rifqah');
   const [playing, setPlaying] = useState(false);
   const [project, setProject] = useState<Project | null>(null);
-  const [resumeOpen, setResumeOpen] = useState(false);
   const [toast, setToast] = useState<string | null>(null);
   const { scrollTo, lock, unlock } = useSmoothScroll();
 
@@ -91,7 +89,6 @@ function Series() {
 
   const closeIntro = useCallback(() => setPlaying(false), []);
   const closeProject = useCallback(() => setProject(null), []);
-  const closeResume = useCallback(() => setResumeOpen(false), []);
 
   const sections: Record<SectionId, ReactNode> = {
     about: <About />,
@@ -100,7 +97,7 @@ function Series() {
     picks: <TopPicks />,
     skills: <Skills />,
     moments: <Achievements />,
-    story: <ResumeSection onView={() => setResumeOpen(true)} />,
+    story: <ResumeSection />,
   };
 
   return (
@@ -117,7 +114,7 @@ function Series() {
         <motion.div initial={{ opacity: 0, scale: 1.03, filter: 'blur(10px)' }} animate={{ opacity: 1, scale: 1, filter: 'blur(0px)' }} transition={{ duration: 1, ease: EASE }}>
           <Navbar order={order} profileId={profileId} onSwitch={pickProfile} />
           <main>
-            <Hero key={`hero-${profileId}`} onPlay={() => setPlaying(true)} onResume={() => setResumeOpen(true)} profileId={profileId} />
+            <Hero key={`hero-${profileId}`} onPlay={() => setPlaying(true)} profileId={profileId} />
             <ContinueWatching order={order} />
             {order.map((id) => (
               <Scene key={id} id={id} className={id === 'originals' ? '!py-0 sm:!py-0' : ''}>
@@ -132,7 +129,6 @@ function Series() {
       <Suspense fallback={null}>
         <AnimatePresence>{playing && <PlayIntro key="intro" onClose={closeIntro} />}</AnimatePresence>
         <AnimatePresence>{project && <ProjectModal key="project" project={project} onClose={closeProject} onSwitch={setProject} />}</AnimatePresence>
-        <AnimatePresence>{resumeOpen && <ResumeModal key="resume" onClose={closeResume} />}</AnimatePresence>
       </Suspense>
 
       <AnimatePresence>

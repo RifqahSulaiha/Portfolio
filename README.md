@@ -72,7 +72,7 @@ src/
     TopPicks               ← Top 10-style row
     Skills                 ← skill genres; each card shows where the skill appears
     Achievements           ← award-poster cards + certification rail (links to credentials)
-    ResumeViewer/ResumeModal ← designed resume sheet, PDF viewer, download
+    ResumeViewer              ← designed resume preview with direct PDF view/download links
     FinalCTA               ← TO BE CONTINUED… + contact links
     CustomCursor, fx.tsx   ← cursor states, magnetic buttons, 3D tilt, text reveals, particles
   hooks/                   ← Lenis smooth scroll + scroll lock, media queries, watch progress
@@ -93,7 +93,7 @@ scripts/build-images.mjs   ← portrait/share-image pipeline (sharp)
 
 - **Opening:** Enter or Esc skips it.
 - **Play Intro:** Space pauses, ← and → change slides, Esc closes.
-- **Project and resume overlays:** Esc closes.
+- **Project overlays:** Esc closes.
 =======
 # Portfolio
 My Own Portfolio Series

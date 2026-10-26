@@ -83,7 +83,7 @@ export const profile = {
     github: 'https://github.com/RifqahSulaiha',
   },
 
-  resumePdf: '/assets/Rifqah_Sulaiha_Resume.pdf',
+  resumePdf: `${import.meta.env.BASE_URL}assets/Rifqah_Sulaiha_Resume.pdf`,
 
   portrait: {
     src: '/assets/portrait-420.webp',

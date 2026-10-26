@@ -22,7 +22,7 @@ export const profile = {
     linkedin: 'https://www.linkedin.com/in/rsulaiha8/',
     github: 'https://github.com/RifqahSulaiha',
   },
-  resumePdf: '/assets/Rifqah_Sulaiha_Resume.pdf',
+  resumePdf: `${import.meta.env.BASE_URL}assets/Rifqah_Sulaiha_Resume.pdf`,
   portrait: {
     src: '/assets/portrait-420.webp',
     srcSet: '/assets/portrait-420.webp 420w, /assets/portrait-720.webp 720w, /assets/portrait-1100.webp 1100w',

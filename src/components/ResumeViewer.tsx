@@ -4,7 +4,7 @@ import { achievements, certifications, education, experience, profile, projects,
 import { EASE, Magnetic, SectionHeading } from './fx';
 
 /** THE FULL STORY — a designed resume preview plus view / download actions. */
-export default function ResumeSection({ onView }: { onView: () => void }) {
+export default function ResumeSection() {
   return (
     <>
       <SectionHeading kicker="The screenplay" title="The Full Story" />
@@ -26,19 +26,22 @@ export default function ResumeSection({ onView }: { onView: () => void }) {
           </p>
           <div className="mt-6 flex flex-col gap-3">
             <Magnetic className="w-full">
-              <button
-                type="button"
+              <a
+                href={profile.resumePdf}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="View Rifqah Sulaiha's resume PDF in a new tab"
                 data-cursor="view"
-                onClick={onView}
                 className="flex min-h-12 w-full items-center justify-center gap-2 rounded-md bg-bone px-6 text-[15px] font-bold text-ink transition hover:bg-white"
               >
                 ▶ View Resume
-              </button>
+              </a>
             </Magnetic>
             <Magnetic className="w-full">
               <a
                 href={profile.resumePdf}
                 download="Rifqah_Sulaiha_Resume.pdf"
+                aria-label="Download Rifqah Sulaiha's resume PDF"
                 data-cursor="link"
                 className="glass flex min-h-12 w-full items-center justify-center gap-2 rounded-md px-6 text-[15px] font-semibold text-bone transition hover:bg-white/15"
               >

@@ -12,7 +12,7 @@ const item = {
   show: { opacity: 1, y: 0, filter: 'blur(0px)', transition: { duration: 0.9, ease: EASE } },
 };
 
-export default function Hero({ onPlay, onResume, profileId }: { onPlay: () => void; onResume: () => void; profileId: ProfileId }) {
+export default function Hero({ onPlay, profileId }: { onPlay: () => void; profileId: ProfileId }) {
   const ref = useRef<HTMLElement>(null);
   const fine = useFinePointer();
   const { scrollTo } = useSmoothScroll();
@@ -158,9 +158,9 @@ export default function Hero({ onPlay, onResume, profileId }: { onPlay: () => vo
           </Magnetic>
           <Magnetic>
             {profileId === 'recruiter' ? (
-              <button type="button" onClick={onResume} className="glass flex min-h-12 items-center gap-3 rounded-md px-6 py-3 text-[15px] font-semibold text-bone transition hover:bg-white/15 sm:px-8">
+              <a href={profile.resumePdf} target="_blank" rel="noopener noreferrer" aria-label="View Rifqah Sulaiha's resume PDF in a new tab" className="glass flex min-h-12 items-center gap-3 rounded-md px-6 py-3 text-[15px] font-semibold text-bone transition hover:bg-white/15 sm:px-8">
                 <span className="text-lg">⤓</span> View Resume
-              </button>
+              </a>
             ) : (
               <button
                 type="button"
