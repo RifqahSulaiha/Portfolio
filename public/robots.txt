@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rifqah-the-series.vercel.app/sitemap.xml

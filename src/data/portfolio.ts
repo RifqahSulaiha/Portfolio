@@ -1,10 +1,7 @@
 
 /**
- * Central portfolio data for Rifqah Sulaiha N.
+ * Central portfolio data for Rifqah Sulaiha.
  * Portfolio: THE DEVELOPER SERIES
- *
- * Project status is stated honestly as completed, planned, or in progress
- * wherever implementation has not been confirmed.
  */
 
 export type Palette = {
@@ -54,25 +51,25 @@ const jade: Palette = {
 ========================================================= */
 
 export const profile = {
-  fullName: 'Rifqah Sulaiha N',
+  fullName: 'Rifqah Sulaiha',
   displayName: 'Rifqah',
   firstName: 'RIFQAH',
-  seriesTag: 'THE DEVELOPER SERIES',
+  seriesTag: 'BCA STUDENT • ASPIRING GAME DEVELOPER • PROJECT MANAGEMENT TRAINEE',
   originalLabel: 'A RIFQAH ORIGINAL',
 
-  role: 'BCA Student · Creative Designer · AI Prompt Engineer',
+  role: 'BCA Student | Aspiring Game Developer | Junior Project Management Trainee',
 
   tagline: [
     'BCA Student',
-    'Graphic Design',
-    'Video Editing',
-    'AI Prompt Engineering',
+    'Aspiring Game Developer',
+    'Junior Project Management Trainee',
+    'Creative Tech Learner',
   ],
 
   intro:
-    'Motivated BCA student passionate about graphic design, video editing, AI prompt engineering, and full-stack web development. I enjoy exploring technology, learning new skills, and creating visually appealing and user-friendly digital experiences.',
+    'An aspiring software and game developer with experience in project management, manual software testing, web development, UI/UX collaboration, creative design and AI-assisted development. Interested in building innovative digital products, developing intelligent applications and gaining practical industry experience.',
 
-  location: 'Verkilambi, Kanyakumari District, Tamil Nadu, India',
+  location: 'Kanyakumari, Tamil Nadu, India',
 
   email: 'jrartisthub45@gmail.com',
 
@@ -89,17 +86,17 @@ export const profile = {
     src: '/assets/portrait-420.webp',
     srcSet:
       '/assets/portrait-420.webp 420w, /assets/portrait-720.webp 720w, /assets/portrait-1100.webp 1100w',
-    alt: 'Portrait of Rifqah Sulaiha N',
+    alt: 'Portrait of Rifqah Sulaiha',
   },
 
   interests: [
-    'Graphic Design',
-    'Video Editing',
-    'AI Prompt Engineering',
-    'Full-Stack Web Development',
-    'Creative Technology',
-    'Digital Product Ideas',
-    'User-Friendly Experiences',
+    'Game Development',
+    'AI-Assisted Development',
+    'Project Management',
+    'Manual Software Testing',
+    'Web Development',
+    'Creative Design',
+    'Computer Vision Concepts',
   ],
 };
 
@@ -118,21 +115,21 @@ export type Education = {
 
 export const education: Education[] = [
   {
-    school: 'Noorul Islam College of Arts and Science',
+    school: 'Noorul Islam College of Arts and Science (NICAS)',
     place: 'Kumaracoil, Tamil Nadu',
     degree: 'Bachelor of Computer Applications (BCA)',
-    period: 'Currently studying · First Year',
+    period: 'Expected graduation · 2028',
     details:
-      'Currently pursuing a BCA degree and developing foundational knowledge in computer applications and digital technologies.',
-    score: 'Current',
+      'Currently pursuing a BCA degree with a focus on computer applications, software development, and emerging digital technologies.',
+    score: 'Expected 2028',
   },
   {
     school: 'Thassim Beevi Abdul Kader College for Women',
     place: 'Kilakarai, Tamil Nadu',
-    degree: 'Previous college education',
-    period: 'Previously attended',
+    degree: 'Previous Institution',
+    period: 'Earlier studies',
     details:
-      'Previously studied at this institution before transferring to Noorul Islam College of Arts and Science.',
+      'Completed earlier higher education at Thassim Beevi Abdul Kader College for Women before pursuing BCA at NICAS.',
   },
 ];
 
@@ -150,31 +147,37 @@ export type Experience = {
 
 export const experience: Experience[] = [
   {
-    company: 'CodTech IT Solutions Pvt. Ltd.',
-    role: 'Full Stack Web Development Intern',
+    company: 'Foxtech Solutions',
+    role: 'Junior Project Management Trainee / Project Management Intern',
     place: 'Internship',
-    period: 'April 10 – May 10, 2025',
-
+    period: 'Project management internship',
     points: [
-      'Worked on frontend and backend development fundamentals.',
-      'Completed assigned tasks and mini-projects during the internship.',
-      'Gained exposure to real-world software development workflows.',
-      'Developed a foundational understanding of full-stack web development.',
+      'Prepared project documentation and maintained structured records for team work.',
+      'Reviewed user flows and collaborated with development and UI/UX teams to improve product quality.',
+      'Performed user acceptance testing and manual software testing to validate functionality.',
+      'Tracked bugs, documented issues, and reported findings for resolution and follow-up.',
     ],
   },
-
   {
-    company: 'Foxtech Pvt Solutions',
-    role: 'Project Manager Intern',
-    place: 'Marthandam',
-    period: 'Internship experience',
-
+    company: 'CODETECH IT',
+    role: 'Full-Stack Development Internship',
+    place: 'Internship',
+    period: 'Full-stack development internship',
     points: [
-      'Help coordinate project tasks and communicate progress updates.',
-      'Support UI/UX quality assurance by reviewing application screens and comparing implementations against designs.',
-      'Prepare structured bug reports with reproduction steps, expected results, actual results, and priorities.',
-      'Track issues and follow up on fixes with project team members.',
-      'Help organize tasks and communicate issues across project workflows.',
+      'Worked on frontend and backend fundamentals during the internship program.',
+      'Built exposure to practical web development workflows and implementation practices.',
+      'Developed confidence in creating and testing digital products with a full-stack mindset.',
+    ],
+  },
+  {
+    company: 'Marcello Tech',
+    role: 'Java Development Internship',
+    place: 'Internship',
+    period: 'One month',
+    points: [
+      'Gained exposure to Java development concepts and core programming practices.',
+      'Strengthened understanding of structured coding and application logic basics.',
+      'Developed practical exposure to software development workflows in a short internship period.',
     ],
   },
 ];
@@ -205,216 +208,118 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    id: 'jr-artist-hub',
-    title: 'JR Artist Hub',
-    year: 'In Progress',
-    genre: 'Creator Platform · Portfolio · Marketplace',
-
+    id: 'junior-artist-hub',
+    title: 'Junior Artist Hub',
+    year: '2024–2025',
+    genre: 'Creative Technology · Artist Community · Web Development',
     logline:
-      'A creator-focused platform concept designed to help emerging artists showcase their work, build portfolios, and explore ways to promote or monetize their creative services.',
-
-    stack: [
-      'React',
-      'Node.js',
-      'MongoDB',
-      'EmailJS',
-      'Payment Integration — Planned',
-    ],
-
+      'An artist community and creative learning platform designed to connect artists, support creative education, and provide opportunities to showcase and sell artwork.',
+    stack: ['React', 'Web Development', 'Creative Platforms', 'Artist Community'],
     build: [
-      'Developed the concept around artist registration, login, artwork uploads, portfolio pages, and a creator dashboard.',
-      'Planned a storefront experience for presenting creative work and services.',
-      'Explored AI-assisted artwork pricing to help artists estimate the value of their work.',
-      'Outlined email invoice workflows and payment-related features for future implementation.',
+      'Designed an artist-focused platform concept around artist registration, artwork submissions, community engagement, and creative learning.',
+      'Explored a marketplace model for showcasing artistic work and enabling creators to present portfolios and services.',
+      'Incorporated AI-assisted artwork pricing ideas to help artists estimate value and improve decision-making.',
+      'Outlined artist certificate workflows and community-based learning opportunities for future product growth.',
     ],
-
     features: [
-      'Artist registration and login concept',
-      'Artwork uploads',
-      'Artist portfolio pages',
-      'Creator dashboard',
-      'Storefront concept',
-      'AI-assisted pricing concept',
-      'Email invoice workflow concept',
-      'Admin dashboard concept',
+      'Artist registration',
+      'Artwork submissions',
+      'Artist community',
+      'Creative learning',
+      'Art marketplace concept',
+      'AI-assisted artwork pricing',
+      'Artist certificates',
     ],
-
     metrics: [
-      { value: 'Creator-First', label: 'platform concept' },
-      { value: 'AI-Assisted', label: 'pricing idea' },
+      { value: 'Artist', label: 'community platform' },
+      { value: 'AI-Assisted', label: 'pricing concept' },
+      { value: 'Creative', label: 'learning ecosystem' },
     ],
-
     palette: jade,
     motif: 'tenants',
   },
-
   {
-    id: 'skillswap-rent',
-    title: 'SkillSwap & Rent',
-    year: 'Concept / In Progress',
-    genre: 'Student Marketplace · Community Platform',
-
+    id: 'php-practical-website',
+    title: 'PHP Practical Website',
+    year: '2024–2025',
+    genre: 'Educational Technology · PHP Programming · Web Development',
     logline:
-      'A student-focused marketplace concept where users can explore skill-based gigs and rent useful equipment or study materials for specific periods.',
-
-    stack: [
-      'Web Application Concept',
-      'Marketplace UX',
-      'User Profiles',
-      'Admin Moderation',
-    ],
-
+      'An educational website providing organized access to PHP practical programs through a user-friendly interface and searchable resources.',
+    stack: ['PHP', 'HTML', 'CSS', 'JavaScript', 'PWA'],
     build: [
-      'Planned a marketplace where students can offer skills and discover small gigs.',
-      'Explored time-based rentals for cameras, tripods, microphones, projectors, laptops, calculators, and textbooks.',
-      'Outlined onboarding requirements for student profiles and address information.',
-      'Defined an admin moderation concept for managing or suspending user accounts.',
-      'Explored a purple-and-black visual identity and a potential marketplace service-fee model.',
+      'Built an educational website focused on organized PHP practical program access for learners and beginner developers.',
+      'Created a searchable and navigable interface to improve browsing, discovery, and learning flow.',
+      'Explored offline-ready functionality to support learning experiences in a lightweight, accessible format.',
+      'Structured practical content so users can quickly find relevant programming resources.',
     ],
-
     features: [
-      'Student-focused profiles',
-      'Skill and gig listings',
-      'Hourly or daily rental concept',
-      'Equipment rental listings',
-      'Textbook and study-material rentals',
-      'Admin user moderation',
-      'Marketplace commission concept',
+      'PHP practical program collection',
+      'Search and navigation',
+      'Offline PWA functionality',
+      'Educational programming resources',
     ],
-
     metrics: [
-      { value: 'Skills + Rentals', label: 'marketplace areas' },
-      { value: 'Student-First', label: 'target audience' },
+      { value: 'PHP', label: 'learning portal' },
+      { value: 'PWA', label: 'offline access' },
+      { value: 'Searchable', label: 'learning flow' },
     ],
-
-    palette: violet,
+    palette: ocean,
     motif: 'flow',
   },
-
   {
-    id: 'vehicle-fleet-management',
-    title: 'Vehicle Tracking & Fleet Management',
-    year: 'Phase 1 Planning',
-    genre: 'Fleet Management · Live Tracking · Full-Stack',
-
+    id: 'jarvis-ai-assistant',
+    title: 'J.A.R.V.I.S. AI Assistant',
+    year: '2025',
+    genre: 'Artificial Intelligence · Gesture Recognition · Interactive Software',
     logline:
-      'A planned fleet management system focused on vehicle registration, tracking-device linking, live location monitoring, route replay, and reporting.',
-
-    stack: [
-      'React',
-      'Vite',
-      'React Router',
-      'Axios',
-      'Node.js',
-      'Express.js',
-      'PostgreSQL',
-    ],
-
+      'An interactive AI assistant that answers user questions and responds to physical hand gestures through gesture-based control and intelligent conversation.',
+    stack: ['Python', 'AI', 'Computer Vision', 'Gesture Recognition', 'Web App'],
     build: [
-      'Outlined a proposed frontend, backend, and database architecture for Phase 1.',
-      'Defined admin workflows for registering vehicles and associating one or more tracking devices with each vehicle.',
-      'Planned live map tracking, route history, replay, and report export functionality.',
-      'Explored a device-agnostic ingestion layer for phones, GPS trackers, vehicle cameras, and future IoT sources.',
-      'Identified backend planning areas including authentication, database models, API validation, tracking, reports, and real-time updates.',
+      'Developed an AI assistant experience that responds to user queries and integrates gesture-based interaction for a more immersive experience.',
+      'Explored hand-gesture recognition and control patterns to support movement and response behavior.',
+      'Focused on intuitive, interactive user experience design with responsive AI-driven engagement.',
+      'Combined question answering features with motion-based interaction to create a multifunctional assistant concept.',
     ],
-
     features: [
-      'Vehicle registration concept',
-      'Tracking-device management',
-      'Live map tracking planned',
-      'Route history and replay planned',
-      'Report export planned',
-      'Device-agnostic ingestion concept',
+      'AI-powered question answering',
+      'Hand gesture recognition',
+      'Gesture-controlled movement',
+      'Interactive user experience',
+      'Gesture-responsive functionality',
     ],
-
     metrics: [
-      { value: 'Phase 1', label: 'planned scope' },
-      { value: 'Device-Agnostic', label: 'architecture goal' },
+      { value: 'AI + Gesture', label: 'interaction model' },
+      { value: 'Computer Vision', label: 'core capability' },
+      { value: 'Interactive', label: 'user experience' },
     ],
-
-    palette: ocean,
-    motif: 'tenants',
-  },
-
-  {
-    id: 'portfolio-series',
-    title: 'Personal Portfolio — The Developer Series',
-    year: '2026',
-    genre: 'Personal Branding · Web Design',
-
-    logline:
-      'A cinematic portfolio experience presenting personal information, education, internship experience, creative skills, and digital project concepts.',
-
-    stack: [
-      'TypeScript',
-      'Web UI',
-      'Responsive Images',
-      'Open Graph Metadata',
-    ],
-
-    build: [
-      'Organized portfolio content into profile, education, experience, projects, skills, and highlights.',
-      'Explored a cinematic black-and-burgundy visual identity.',
-      'Planned responsive portrait assets and social-sharing metadata.',
-      'Structured project data to present technical interests alongside creative work.',
-    ],
-
-    features: [
-      'Profile and introduction',
-      'Education and internship sections',
-      'Project showcase',
-      'Skill categories',
-      'Creative interests',
-      'Responsive portrait assets',
-      'Social-sharing metadata',
-    ],
-
-    metrics: [
-      { value: '1200 × 630', label: 'OG image target size' },
-      { value: 'The Developer Series', label: 'personal brand' },
-    ],
-
     palette: crimson,
     motif: 'shield',
   },
-
   {
-    id: 'ai-powered-smart-research',
-    title: 'AI-Powered Smart Research',
-    year: '2026',
-    genre: 'Academic Presentation · AI Research',
-
+    id: 'additional-projects',
+    title: 'Additional Project Work',
+    year: '2024–2025',
+    genre: 'Software Development · Problem Solving · Product Exploration',
     logline:
-      'An academic presentation exploring how AI tools can support research while keeping human intelligence and judgment central to the process.',
-
-    stack: [
-      'AI Tools',
-      'Prompt Engineering',
-      'Research Workflow',
-      'Presentation Design',
-    ],
-
+      'Selected repositories and project experiments demonstrating practical development, learning, and digital product exploration across multiple problem areas.',
+    stack: ['GitHub Projects', 'Problem Solving', 'Web Development', 'Prototype Work'],
     build: [
-      'Prepared a college presentation about AI-powered smart research.',
-      'Structured the presentation around the topics included in the academic slides.',
-      'Prepared a written report based on the presentation content.',
-      'Explored the relationship between AI assistance and human judgment in research.',
+      'Reviewed and selected relevant repositories that highlight growth in software development, experimentation, and hands-on project work.',
+      'Emphasized projects that show applied learning rather than unfinished or duplicate experiments.',
+      'Curated work that demonstrates initiative, iteration, and technical exploration in real project contexts.',
     ],
-
     features: [
-      'AI-supported research concepts',
-      'Structured research workflow',
-      'Academic presentation',
-      'Written report preparation',
-      'AI and human intelligence theme',
+      'Relevant GitHub projects',
+      'Hands-on development practice',
+      'Prototype and experimentation work',
+      'Portfolio-ready technical projects',
     ],
-
     metrics: [
-      { value: 'Academic', label: 'presentation project' },
-      { value: 'AI + Human', label: 'research approach' },
+      { value: 'Curated', label: 'project selection' },
+      { value: 'Applied', label: 'learning focus' },
+      { value: 'Portfolio-ready', label: 'work quality' },
     ],
-
-    palette: amber,
+    palette: violet,
     motif: 'flow',
   },
 ];
@@ -435,47 +340,56 @@ export type Achievement = {
 export const achievements: Achievement[] = [
   {
     id: 'codtech-internship',
-    title: 'Full Stack Web Development Internship',
-    org: 'CodTech IT Solutions Pvt. Ltd.',
+    title: 'CODETECH IT Full-Stack Internship',
+    org: 'CODETECH IT',
     detail:
-      'Completed an internship involving frontend and backend fundamentals, assigned tasks, mini-projects, and exposure to development workflows.',
+      'Completed a full-stack development internship focused on web development fundamentals, practical implementation, and project exposure.',
     laurel: 'Web Development',
   },
 
   {
-    id: 'project-management',
-    title: 'Project Coordination Experience',
-    org: 'Foxtech Pvt Solutions',
+    id: 'marcello-java',
+    title: 'Marcello Tech Java Internship',
+    org: 'Marcello Tech',
     detail:
-      'Gained practical experience supporting task coordination, progress communication, issue tracking, and project follow-up.',
+      'Completed a Java development internship with a focus on foundational programming concepts and software workflow exposure.',
+    laurel: 'Java',
+  },
+
+  {
+    id: 'foxtech-pm',
+    title: 'Junior Project Management Trainee',
+    org: 'Foxtech Solutions',
+    detail:
+      'Worked on project documentation, user-flow review, UAT, manual software testing, bug tracking, and cross-team coordination.',
     laurel: 'Project Management',
   },
 
   {
-    id: 'qa-documentation',
-    title: 'UI/UX Quality Assurance',
-    org: 'Software Project Work',
+    id: 'ml-healthcare',
+    title: 'Machine Learning Workshop',
+    org: 'Healthcare and Drug Discovery',
     detail:
-      'Practices reviewing application screens, identifying visual and functional issues, and documenting bugs clearly for follow-up.',
-    laurel: 'Quality Assurance',
+      'Participated in a machine learning workshop focused on healthcare and drug discovery, expanding technical understanding of AI applications.',
+    laurel: 'AI Workshop',
   },
 
   {
-    id: 'academy-youth-talk',
-    title: 'Academy Youth Talk',
-    org: 'Regional Pre-Finals',
+    id: 'national-art',
+    title: 'National-Level Indian Art Contest',
+    org: 'Art and Creativity',
     detail:
-      'Participation in the Academy Youth Talk Regional Pre-Finals.',
-    laurel: 'Participation',
+      'Participated in a national-level art contest and earned a medal for creative achievement.',
+    laurel: 'Art Achievement',
   },
 
   {
-    id: 'creative-learning',
-    title: 'Creative and AI Learning',
-    org: 'Graphic Design · Video · AI',
+    id: 'prompt-engineering',
+    title: 'AI Prompt Engineering Knowledge',
+    org: 'AI and Emerging Technologies',
     detail:
-      'Pursues learning in graphic design, video editing, AI tools, and prompt engineering alongside BCA studies.',
-    laurel: 'Creative Learning',
+      'Built practical understanding of AI prompt engineering, AI-assisted development, and modern digital workflows.',
+    laurel: 'AI Skills',
   },
 ];
 
@@ -491,23 +405,23 @@ export type Certification = {
 
 export const certifications: Certification[] = [
   {
-    name: 'Full Stack Web Development Internship',
-    issuer: 'CodTech IT Solutions Pvt. Ltd.',
+    name: 'CODETECH IT Full-Stack Internship',
+    issuer: 'CODETECH IT',
   },
 
   {
-    name: 'AI Tools & Prompt Engineering',
-    issuer: 'ByteTree.in',
+    name: 'Marcello Tech Java Internship',
+    issuer: 'Marcello Tech',
   },
 
   {
-    name: 'Introduction to AI',
-    issuer: 'ByteTree.in',
+    name: 'Machine Learning Workshop — Healthcare and Drug Discovery',
+    issuer: 'Workshop Participation',
   },
 
   {
-    name: 'Introduction to Graphic Design with Photoshop',
-    issuer: 'Great Learning Academy',
+    name: 'AI Prompt Engineering knowledge',
+    issuer: 'AI and Emerging Technologies',
   },
 ];
 
@@ -530,97 +444,60 @@ export type SkillCategory = {
 
 export const skillCategories: SkillCategory[] = [
   {
-    id: 'creative-design',
-    title: 'Graphic Design',
-    subtitle: 'Visual communication and creative design',
-
+    id: 'programming',
+    title: 'Programming & Development',
+    subtitle: 'Languages and core software development foundations',
     skills: [
-      { name: 'Graphic Design', mono: 'Gd' },
-      { name: 'Photoshop Basics', mono: 'Ps' },
-      { name: 'Visual Composition', mono: 'Vc' },
-      { name: 'Presentation Design', mono: 'Pd' },
-    ],
-  },
-
-  {
-    id: 'video-editing',
-    title: 'Video Editing',
-    subtitle: 'Editing tools and visual storytelling',
-
-    skills: [
-      { name: 'CapCut', mono: 'Cc' },
-      { name: 'VN Video Editor', mono: 'Vn' },
-      { name: 'Video Editing', mono: 'Ve' },
-      { name: 'Visual Storytelling', mono: 'Vs' },
-    ],
-  },
-
-  {
-    id: 'ai',
-    title: 'AI & Prompt Engineering',
-    subtitle: 'AI tools, prompts, and creative workflows',
-
-    skills: [
-      { name: 'AI Tools', mono: 'Ai' },
-      { name: 'Prompt Engineering', mono: 'Pe' },
-      { name: 'AI-Assisted Ideation', mono: 'Id' },
-      { name: 'Smart Research Concepts', mono: 'Sr' },
-    ],
-  },
-
-  {
-    id: 'development',
-    title: 'Web Development',
-    subtitle: 'Programming and full-stack foundations',
-
-    skills: [
+      { name: 'Python', mono: 'Py' },
+      { name: 'C', mono: 'C' },
+      { name: 'C++', mono: 'C++' },
+      { name: 'Java', mono: 'Ja' },
+      { name: 'PHP', mono: 'Php' },
       { name: 'HTML', mono: 'Ht' },
       { name: 'CSS', mono: 'Cs' },
-      { name: 'JavaScript Basics', mono: 'Js' },
-      { name: 'Frontend Fundamentals', mono: 'Fe' },
-      { name: 'Backend Fundamentals', mono: 'Be' },
+      { name: 'JavaScript', mono: 'Js' },
     ],
   },
 
   {
-    id: 'project-coordination',
-    title: 'Project Coordination',
-    subtitle: 'Organization, communication, and follow-up',
-
+    id: 'project-management',
+    title: 'Project Management & QA',
+    subtitle: 'Planning, testing, documentation, and delivery support',
     skills: [
-      { name: 'Task Coordination', mono: 'Tc' },
-      { name: 'Progress Updates', mono: 'Pu' },
-      { name: 'Issue Tracking', mono: 'It' },
-      { name: 'Documentation', mono: 'Dc' },
-      { name: 'Team Communication', mono: 'Tm' },
-    ],
-  },
-
-  {
-    id: 'quality-assurance',
-    title: 'UI/UX Quality Assurance',
-    subtitle: 'Design review and issue documentation',
-
-    skills: [
-      { name: 'UI Review', mono: 'Ui' },
-      { name: 'Functional Testing', mono: 'Ft' },
+      { name: 'Project Management', mono: 'Pm' },
+      { name: 'Manual Software Testing', mono: 'Mt' },
+      { name: 'UAT', mono: 'Ua' },
       { name: 'Bug Reporting', mono: 'Br' },
-      { name: 'Design Comparison', mono: 'Fg' },
-      { name: 'Issue Follow-Up', mono: 'If' },
+      { name: 'User Flow Analysis', mono: 'Uf' },
+      { name: 'BPMN Fundamentals', mono: 'Bp' },
+      { name: 'Google Sheets', mono: 'Gs' },
     ],
   },
 
   {
-    id: 'soft-skills',
-    title: 'Soft Skills',
-    subtitle: 'Personal and professional strengths',
-
+    id: 'ai-emerging',
+    title: 'AI & Emerging Technologies',
+    subtitle: 'AI-assisted workflows and intelligent product concepts',
     skills: [
-      { name: 'Creativity', mono: 'Cr' },
-      { name: 'Communication', mono: 'Cm' },
-      { name: 'Adaptability', mono: 'Ad' },
-      { name: 'Time Management', mono: 'Tm' },
-      { name: 'Teamwork', mono: 'Tw' },
+      { name: 'AI Prompt Engineering', mono: 'Pe' },
+      { name: 'AI-Assisted Development', mono: 'Ai' },
+      { name: 'AI Application Concepts', mono: 'Ap' },
+      { name: 'Gesture-Based Interaction', mono: 'Gb' },
+      { name: 'Computer Vision Concepts', mono: 'Cv' },
+    ],
+  },
+
+  {
+    id: 'creative-digital',
+    title: 'Creative & Digital',
+    subtitle: 'Design, visual media, and content creation tools',
+    skills: [
+      { name: 'Canva', mono: 'Cn' },
+      { name: 'Adobe Photoshop', mono: 'Ps' },
+      { name: 'Poster Design', mono: 'Pd' },
+      { name: 'Acrylic Painting', mono: 'Ap' },
+      { name: 'CapCut', mono: 'Cc' },
+      { name: 'VN Video Editor', mono: 'Vn' },
     ],
   },
 ];
@@ -630,99 +507,32 @@ export const skillCategories: SkillCategory[] = [
 ========================================================= */
 
 export const skillEvidence: Record<string, string[]> = {
-  'Graphic Design': [
-    'Introduction to Graphic Design with Photoshop — Great Learning Academy',
-  ],
-
-  'Photoshop Basics': [
-    'Introduction to Graphic Design with Photoshop — Great Learning Academy',
-  ],
-
-  'Video Editing': [
-    'CapCut',
-    'VN Video Editor',
-  ],
-
-  CapCut: [
-    'Video editing tool listed in resume',
-  ],
-
-  'VN Video Editor': [
-    'Video editing tool listed in resume',
-  ],
-
-  'AI Tools': [
-    'AI Tools & Prompt Engineering — ByteTree.in',
-    'Introduction to AI — ByteTree.in',
-  ],
-
-  'Prompt Engineering': [
-    'AI Tools & Prompt Engineering — ByteTree.in',
-  ],
-
-  'JavaScript Basics': [
-    'JavaScript basics listed in resume',
-  ],
-
-  'Frontend Fundamentals': [
-    'Full Stack Web Development Internship — CodTech IT Solutions Pvt. Ltd.',
-  ],
-
-  'Backend Fundamentals': [
-    'Full Stack Web Development Internship — CodTech IT Solutions Pvt. Ltd.',
-  ],
-
-  'Task Coordination': [
-    'Project Manager Intern — Foxtech Pvt Solutions',
-  ],
-
-  'Progress Updates': [
-    'Project coordination experience',
-  ],
-
-  'Issue Tracking': [
-    'UI/UX quality assurance and bug tracking',
-  ],
-
-  Documentation: [
-    'Bug reports and academic project reports',
-  ],
-
-  'Team Communication': [
-    'Team coordination and internship workflows',
-  ],
-
-  'Functional Testing': [
-    'UI/UX QA practice',
-  ],
-
-  'Bug Reporting': [
-    'Structured issue documentation',
-  ],
-
-  Creativity: [
-    'Graphic design, video editing, and digital project ideas',
-  ],
-
-  Communication: [
-    'Team communication and project coordination',
-  ],
-
-  Adaptability: [
-    'Learning across creative and technical disciplines',
-  ],
-
-  Teamwork: [
-    'Internship and project coordination experience',
-  ],
-
-  'Feature Planning': [
-    'JR Artist Hub and SkillSwap & Rent concepts',
-  ],
-
-  'Marketplace Concepts': [
-    'JR Artist Hub and SkillSwap & Rent',
-  ],
+  Python: ['Core development skill listed in professional profile'],
+  C: ['Programming language listed in professional profile'],
+  'C++': ['Programming language listed in professional profile'],
+  Java: ['Programming language listed in professional profile'],
+  PHP: ['Used in PHP practical website and educational development work'],
+  HTML: ['Core web development skill and project work'],
+  CSS: ['Core styling skill and front-end fundamentals'],
+  JavaScript: ['Web development skill used across projects'],
+  'Project Management': ['Experience in project documentation and coordination'],
+  'Manual Software Testing': ['Practical QA and verification work in internship experience'],
+  UAT: ['User acceptance testing responsibilities in project work'],
+  'Bug Reporting': ['Issue tracking and structured testing reports'],
+  'User Flow Analysis': ['User-flow reviews and product usability review'],
+  'BPMN Fundamentals': ['Process mapping and workflow understanding'],
+  'Google Sheets': ['Used for coordination and tracking tasks'],
+  'AI Prompt Engineering': ['AI-assisted workflow and emerging technology skill'],
+  'AI-Assisted Development': ['Applied in AI-related project and digital product ideas'],
+  'AI Application Concepts': ['Interest in building intelligent applications'],
+  'Gesture-Based Interaction': ['Applied in J.A.R.V.I.S. AI assistant concept'],
+  'Computer Vision Concepts': ['Relevant to AI assistant and gesture-recognition work'],
+  Canva: ['Creative design and visual communication work'],
+  'Adobe Photoshop': ['Design practice and foundational image editing skill'],
+  'Poster Design': ['Creative design and visual communication work'],
+  'Acrylic Painting': ['Creative expression and visual arts practice'],
+  CapCut: ['Video editing tool used in creative workflow'],
+  'VN Video Editor': ['Video editing skill and creative media practice'],
 };
 
 /* =========================================================
@@ -750,10 +560,10 @@ export const seasons: Season[] = [
   {
     number: 1,
     title: 'The Foundation',
-    period: 'BCA · Present',
+    period: 'BCA · 2024–2028',
 
     synopsis:
-      'Building an academic foundation while exploring technology, creativity, and digital experiences.',
+      'Building a strong academic base in computing while exploring software, design, and digital creativity.',
 
     episodes: [
       {
@@ -761,23 +571,23 @@ export const seasons: Season[] = [
         title: 'The Student',
 
         description:
-          'Currently pursuing a Bachelor of Computer Applications at Noorul Islam College of Arts and Science.',
+          'Currently pursuing a Bachelor of Computer Applications at Noorul Islam College of Arts and Science, Kumaracoil.',
 
         tags: ['BCA', 'Computer Applications'],
 
-        runtime: 'Currently studying',
+        runtime: 'Expected 2028',
 
         palette: violet,
       },
 
       {
         code: 'S01 E02',
-        title: 'The Creative',
+        title: 'The Creative Thinker',
 
         description:
-          'Exploring graphic design, video editing, AI prompt engineering, and visually appealing digital experiences.',
+          'Exploring design, AI-assisted development, computer vision concepts, and digital product ideas through creative technology.',
 
-        tags: ['Design', 'Video Editing', 'AI'],
+        tags: ['Design', 'AI', 'Creative Tech'],
 
         runtime: 'Ongoing',
 
@@ -789,36 +599,36 @@ export const seasons: Season[] = [
   {
     number: 2,
     title: 'Learning to Build',
-    period: 'April – May 2025',
+    period: 'Internships',
 
     synopsis:
-      'Developing foundational knowledge of full-stack web development through internship experience.',
+      'Developing practical skills through internships in full-stack development, project coordination, and Java development.',
 
     episodes: [
       {
         code: 'S02 E01',
-        title: 'The Intern',
+        title: 'The Full-Stack Intern',
 
         description:
-          'Completed a Full Stack Web Development internship at CodTech IT Solutions Pvt. Ltd.',
+          'Completed a full-stack development internship at CODETECH IT and gained exposure to web application work and delivery practices.',
 
         tags: ['Internship', 'Web Development'],
 
-        runtime: 'April 10 – May 10, 2025',
+        runtime: 'CODETECH IT',
 
         palette: ocean,
       },
 
       {
         code: 'S02 E02',
-        title: 'Frontend and Backend',
+        title: 'The Java Developer',
 
         description:
-          'Worked on frontend and backend fundamentals, completed assigned tasks, and explored mini-projects.',
+          'Worked through a Java development internship at Marcello Tech and strengthened programming fundamentals and application logic.',
 
-        tags: ['Frontend', 'Backend', 'Mini-Projects'],
+        tags: ['Java', 'Programming', 'Learning'],
 
-        runtime: 'Internship period',
+        runtime: 'Marcello Tech',
 
         palette: violet,
       },
@@ -828,22 +638,22 @@ export const seasons: Season[] = [
   {
     number: 3,
     title: 'Learning to Coordinate',
-    period: 'Internship Experience',
+    period: 'Project Work',
 
     synopsis:
-      'Developing project coordination and UI/UX quality assurance skills through software project workflows.',
+      'Applying project management practices, documentation, testing, and quality review in professional and team-based contexts.',
 
     episodes: [
       {
         code: 'S03 E01',
-        title: 'The Coordinator',
+        title: 'The PM Trainee',
 
         description:
-          'Supporting task coordination, progress communication, and follow-up with project team members.',
+          'Worked at Foxtech Solutions as a Junior Project Management Trainee, supporting documentation, reviews, testing, and bug reporting.',
 
-        tags: ['Coordination', 'Communication'],
+        tags: ['Project Management', 'Testing'],
 
-        runtime: 'Foxtech internship',
+        runtime: 'Foxtech Solutions',
 
         palette: amber,
       },
@@ -853,11 +663,11 @@ export const seasons: Season[] = [
         title: 'The QA Mindset',
 
         description:
-          'Reviewing application interfaces, identifying issues, and documenting expected and actual results.',
+          'Reviewed user flows, tested applications, and documented issues to improve usability and product quality.',
 
-        tags: ['UI/UX QA', 'Bug Reporting'],
+        tags: ['UAT', 'Bug Reporting'],
 
-        runtime: 'Ongoing practice',
+        runtime: 'Practice-based',
 
         palette: crimson,
       },
@@ -867,105 +677,52 @@ export const seasons: Season[] = [
   {
     number: 4,
     title: 'Building Ideas',
-    period: 'Project Concepts',
+    period: 'Projects',
 
     synopsis:
-      'Exploring ideas for creator platforms, student marketplaces, fleet management, and academic research.',
+      'Turning creative and technical interests into practical products, learning portals, and interactive AI experiences.',
 
     episodes: [
       {
         code: 'S04 E01',
-        title: 'The Artist Platform',
+        title: 'Junior Artist Hub',
 
         description:
-          'JR Artist Hub: a creator-platform concept for artwork uploads, portfolios, storefronts, and AI-assisted pricing.',
+          'A creative platform concept for artist community building, artwork showcases, learning, and AI-assisted pricing ideas.',
 
-        tags: ['Creators', 'Portfolios', 'AI'],
+        tags: ['Artist Community', 'Creative Tech', 'AI'],
 
-        runtime: 'In progress',
+        runtime: '2024–2025',
 
         palette: jade,
       },
 
       {
         code: 'S04 E02',
-        title: 'The Student Marketplace',
+        title: 'PHP Practical Website',
 
         description:
-          'SkillSwap & Rent: a marketplace concept for student gigs and time-based rentals.',
+          'An educational PHP project designed to help users access practical programs, search resources, and learn efficiently.',
 
-        tags: ['Students', 'Skills', 'Rentals'],
+        tags: ['PHP', 'Education', 'PWA'],
 
-        runtime: 'Concept / In progress',
-
-        palette: violet,
-      },
-
-      {
-        code: 'S04 E03',
-        title: 'The Fleet System',
-
-        description:
-          'Planning vehicle registration, tracking devices, live tracking, route replay, and reporting.',
-
-        tags: ['Fleet', 'Tracking', 'Reports'],
-
-        runtime: 'Phase 1 planning',
+        runtime: '2024–2025',
 
         palette: ocean,
       },
 
       {
-        code: 'S04 E04',
-        title: 'Smart Research',
+        code: 'S04 E03',
+        title: 'J.A.R.V.I.S. AI Assistant',
 
         description:
-          'Preparing an academic presentation and report exploring AI-powered smart research.',
+          'An interactive AI assistant combining question answering with hand-gesture recognition and motion-based control.',
 
-        tags: ['AI', 'Research', 'Presentation'],
+        tags: ['AI', 'Gesture', 'Computer Vision'],
 
-        runtime: '2026',
+        runtime: '2025',
 
         palette: amber,
-      },
-    ],
-  },
-
-  {
-    number: 5,
-    title: 'The Next Chapter',
-    period: 'Now Exploring',
-
-    synopsis:
-      'Combining academic learning, technical foundations, creative practice, and project ideas.',
-
-    episodes: [
-      {
-        code: 'S05 E01',
-        title: 'The Digital Creator',
-
-        description:
-          'Continuing to explore graphic design, video editing, AI tools, and prompt engineering.',
-
-        tags: ['Design', 'Video', 'AI'],
-
-        runtime: 'Ongoing',
-
-        palette: jade,
-      },
-
-      {
-        code: 'S05 E02',
-        title: 'The Product Thinker',
-
-        description:
-          'Exploring ways to turn ideas into organized, visually appealing, and user-friendly digital experiences.',
-
-        tags: ['UX', 'Planning', 'Product Ideas'],
-
-        runtime: 'Ongoing',
-
-        palette: crimson,
       },
     ],
   },
@@ -984,72 +741,58 @@ export type TopPick = {
 
 export const topPicks: TopPick[] = [
   {
-    label: 'Current Education',
+    label: 'Education',
     title: 'BCA',
-    detail: 'Noorul Islam College of Arts and Science',
+    detail: 'Noorul Islam College of Arts and Science (NICAS)',
     palette: violet,
   },
 
   {
-    label: 'Development Experience',
-    title: 'Full Stack Internship',
-    detail: 'CodTech IT Solutions Pvt. Ltd.',
-    palette: ocean,
-  },
-
-  {
-    label: 'Project Coordination',
-    title: 'Project Manager Intern',
-    detail: 'Foxtech Pvt Solutions',
+    label: 'Project Management',
+    title: 'Foxtech Solutions',
+    detail: 'Junior Project Management Trainee',
     palette: crimson,
   },
 
   {
-    label: 'Creator Platform',
-    title: 'JR Artist Hub',
-    detail: 'Artist portfolio and marketplace concept',
-    palette: jade,
-  },
-
-  {
-    label: 'Student Marketplace',
-    title: 'SkillSwap & Rent',
-    detail: 'Student gigs and rental concept',
-    palette: violet,
-  },
-
-  {
-    label: 'Technical Planning',
-    title: 'Vehicle Tracking',
-    detail: 'Fleet management project planning',
+    label: 'Development',
+    title: 'Full-Stack Internship',
+    detail: 'CODETECH IT',
     palette: ocean,
   },
 
   {
-    label: 'Academic Project',
-    title: 'AI-Powered Smart Research',
-    detail: 'College presentation and report',
+    label: 'Creative Tech',
+    title: 'Junior Artist Hub',
+    detail: 'Artist community and creative learning platform',
+    palette: jade,
+  },
+
+  {
+    label: 'Learning Portal',
+    title: 'PHP Practical Website',
+    detail: 'Educational PHP resource platform',
+    palette: ocean,
+  },
+
+  {
+    label: 'AI Project',
+    title: 'J.A.R.V.I.S.',
+    detail: 'AI assistant with gesture-based interaction',
     palette: amber,
   },
 
   {
     label: 'Creative Skill',
     title: 'Graphic Design',
-    detail: 'Photoshop and visual design learning',
+    detail: 'Canva, Photoshop and visual communication',
     palette: jade,
   },
 
   {
-    label: 'Creative Skill',
-    title: 'Video Editing',
-    detail: 'CapCut and VN Video Editor',
-    palette: crimson,
-  },
-
-  {
-    label: 'Current Interest',
-    title: 'AI Prompt Engineering',
-    detail: 'AI tools and prompt-based workflows',
+    label: 'AI Skill',
+    title: 'Prompt Engineering',
+    detail: 'AI-assisted development and applications',
     palette: amber,
   },
 ];
@@ -1069,18 +812,14 @@ export const introSlides: IntroSlide[] = [
   {
     kicker: 'Introduction',
 
-    title: 'Rifqah Sulaiha N',
+    title: 'Rifqah Sulaiha',
 
     lines: [
       'BCA Student',
-      'Creative Designer · AI Prompt Engineering',
+      'Aspiring Game Developer · Junior Project Management Trainee',
     ],
 
-    chips: [
-      'Creativity',
-      'Technology',
-      'Learning',
-    ],
+    chips: ['Game Dev', 'Project Management', 'Creative Tech'],
   },
 
   {
@@ -1090,60 +829,35 @@ export const introSlides: IntroSlide[] = [
 
     lines: [
       'Bachelor of Computer Applications',
-      'Noorul Islam College of Arts and Science',
+      'Noorul Islam College of Arts and Science (NICAS)',
     ],
 
-    chips: [
-      'BCA',
-      'Computer Applications',
-    ],
+    chips: ['BCA', 'Expected 2028'],
   },
 
   {
     kicker: 'Experience',
 
-    title: 'Learning to Build',
+    title: 'Project Ready',
 
     lines: [
-      'Full Stack Web Development Intern',
-      'CodTech IT Solutions Pvt. Ltd.',
-      'April 10 – May 10, 2025',
+      'Foxtech Solutions — Junior Project Management Trainee',
+      'CODETECH IT — Full-Stack Development Internship',
+      'Marcello Tech — Java Development Internship',
     ],
 
-    chips: [
-      'Frontend',
-      'Backend',
-      'Mini-Projects',
-    ],
-  },
-
-  {
-    kicker: 'Project Coordination',
-
-    title: 'Organize. Review. Improve.',
-
-    lines: [
-      'Project Manager Intern — Foxtech Pvt Solutions',
-      'Task coordination and progress communication',
-      'UI/UX QA and structured bug reporting',
-    ],
-
-    chips: [
-      'Coordination',
-      'Communication',
-      'QA',
-    ],
+    chips: ['PM', 'QA', 'Web Dev'],
   },
 
   {
     kicker: 'Projects',
 
-    title: 'Ideas into Experiences',
+    title: 'Ideas in Motion',
 
     lines: [
-      'JR Artist Hub — creator platform concept',
-      'SkillSwap & Rent — student marketplace concept',
-      'Vehicle Tracking — fleet management planning',
+      'Junior Artist Hub — creative community platform',
+      'PHP Practical Website — educational programming portal',
+      'J.A.R.V.I.S. AI Assistant — gesture-based AI experience',
     ],
   },
 
@@ -1153,16 +867,12 @@ export const introSlides: IntroSlide[] = [
     title: 'Technical + Creative',
 
     lines: [
-      'Graphic design and video editing',
-      'AI tools and prompt engineering',
-      'AI-Powered Smart Research presentation',
+      'Graphic design and visual storytelling',
+      'Video editing and AI-assisted workflows',
+      'Creative problem-solving with technology',
     ],
 
-    chips: [
-      'Design',
-      'Video',
-      'AI',
-    ],
+    chips: ['Design', 'Video', 'AI'],
   },
 
   {
@@ -1171,8 +881,8 @@ export const introSlides: IntroSlide[] = [
     title: 'Build with Purpose',
 
     lines: [
-      'Learning through BCA studies, internship experience,',
-      'creative practice, and digital product ideas.',
+      'Developing software, games, and digital experiences',
+      'with a strong interest in AI, creative technology, and practical learning.',
     ],
   },
 ];
